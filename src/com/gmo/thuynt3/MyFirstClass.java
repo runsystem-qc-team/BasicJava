@@ -3,7 +3,7 @@ package com.gmo.thuynt3;
 public class MyFirstClass {
 
 	public static void main(String[] args) {
-		// Cast value
+		//Cast value
 		int i = 50;
 		short j = (short) i;
 		double d = i;
@@ -22,6 +22,7 @@ public class MyFirstClass {
 
 	public void myPublicMethod() {
 		System.out.println("Public method must  be called by creating object");
+    
 	}
 
 }
