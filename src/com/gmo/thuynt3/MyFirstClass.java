@@ -9,7 +9,20 @@ public class MyFirstClass {
 		double d = i;
 		System.out.println("Short value is: " + j);
 		System.out.println("Double value is: " + d);
-		
+
+		myStaticMethod();
+		MyFirstClass oj = new MyFirstClass();
+		oj.myPublicMethod();
+
+	}
+
+	static void myStaticMethod() {
+		System.out.println("Static method can be called without creating object");
+	}
+
+	public void myPublicMethod() {
+		System.out.println("Public method must  be called by creating object");
+    
 	}
 
 }
